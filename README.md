@@ -4,26 +4,44 @@ Student CRUD Application (Spring Boot + H2 + REST API)
 A simple Spring Boot project that provides CRUD operations for managing students using a RESTful API. It uses Spring Data JPA with an in-memory H2 database.
 
 🛠️ Tech Stack
+
 Java 17+
+
 Spring Boot
+
 Spring Data JPA
+
 H2 Database (In-memory)
+
 Maven
+
 RESTful API
+
 
 📂 Project Structure
 
 com.example.studentapp
+
 │
+
 ├── controller
+
 │   └── StudentController.java
+
 ├── model
+
 │   └── Student.java
+
 ├── repository
+
 │   └── StudentRepository.java
+
 ├── StudentApplication.java
+
 └── resources
+
     └── application.properties
+
 
 
 ⚙️ How to Run
@@ -59,13 +77,13 @@ Method	  Endpoint	            Description
 
 GET	      /api/students	        Get all students
 
-GET	      /api/students/{id}	  Get student by ID
+GET	      /api/students/{id}	Get student by ID
 
-POST	    /api/students	        Add a new student
+POST	  /api/students	        Add a new student
 
-PUT	      /api/students/{id}	  Update student by ID
+PUT	      /api/students/{id}	Update student by ID
 
-DELETE	  /api/students/{id}	  Delete student by ID
+DELETE	  /api/students/{id}	Delete student by ID
 
 
 📝 Sample POST Payload
